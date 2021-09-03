@@ -1,0 +1,24 @@
+body {
+    background-color: #e1dcc5;
+}
+
+#input-field,
+#button-addon2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    word-spacing: 1ex;
+    letter-spacing: 0.5ex;
+}
+
+#input-field:focus {
+    color: blue;
+    font-size: 1.6em;
+}
+
+#spinner {
+    display: none;
+}
+
+.books-title {
+    letter-spacing: 4ex;
+}

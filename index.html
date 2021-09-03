@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Oper Libeary | Open Library</title>
+    <!-- Bootstrap css cdn  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Main-Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Header-Section-Start -->
+    <header>
+            <marquee class="bg-primary">
+                     <h1 class="text-light py-3">Search any book here!!</h1>
+            </marquee>
+            <div class="input-group w-50 m-auto py-3">
+                    <input id="input-field" type="text" class="form-control text-center py-2" placeholder="Enter any book name">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2"
+                    onclick="searchBook()">Search</button>
+            </div>
+    </header>
+
+    <!-- Main-Section-Start -->
+    <main id="main-section" class="container">
+        <!-- Spinner-Start  -->
+        <div id="spinner">
+            <div class="d-flex justify-content-center align-items-center pt-5 mt-5 text-primary">
+                <h1>Loading...</h1>
+                <div class="spinner-border" role="status">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Results-Section -->
+        <section id="results-section">
+            <div id="total-results" class="text-center pt-5">       </div>
+            <div id="results" class="row row-cols-1 row-cols-md-5 g-4">     </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- bootstrap js cdn  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom javascript link  -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
